@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Verificar Idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificar Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input id="ano" type="number">
+            </p>
+            <p>
+                Sexo:
+                Masculino <input name = "radioSex" type="radio" checked>
+                Feminino <input name = "radioSex" type="radio">
+            </p>
+            <p>
+                <input id="verificar" type="button" value="Verificar" onclick="verificarIdade()">
+            <p>
+        </div>
+        <div id="res">
+            Digite os dados corretamente para verificar os resultados!
+        </div>
+    </section>
+    <footer>&copy; Curso em Video</footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
